@@ -1,5 +1,5 @@
 # stylistic-music-generation
-Music Generation Finetuning notebook using the MusicGen model, modified from Hugging-face user ```ylacombe``` and trained on music from the Violet Evergarden: Automemories Soundtrack. 
+Music Generation Finetuning notebook using the Meta's MusicGen model, modified from Hugging-face user ```ylacombe``` and trained on music from the Violet Evergarden: Automemories Soundtrack. 
 
 ### Tooling: 
  - Musicgen (Checkpoint Model for Music Generation)
