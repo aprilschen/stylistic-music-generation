@@ -1,5 +1,5 @@
 # stylistic-music-generation
-Stylistic Music Generation via MusicGen Finetuning, taken from github user ```ylacombe``` and fine-tuned on Violet Evergarden: Automemories Soundtrack. 
+Stylistic Music Generation via MusicGen Finetuning, modified from Hugging-face user ```ylacombe``` and used to fine-tune music on the Violet Evergarden: Automemories Soundtrack. 
 
 ### Tooling: 
  - Musicgen (Checkpoint Model for Music Generation)
