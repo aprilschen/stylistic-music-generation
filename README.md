@@ -1,7 +1,9 @@
 # stylistic-music-generation
-Music Generation Finetuning notebook using the Meta's MusicGen model, modified from Hugging-face user ```ylacombe``` and trained on music from the Violet Evergarden: Automemories Soundtrack. 
+Music Generation Finetuning notebook using the Meta's MusicGen model, trained on music from the Violet Evergarden: Automemories Soundtrack. 
 
 ### Tooling: 
+ - AWS Sagemaker (Compute/Jupyter Notebooks platform)
+ - Weights & Biases (ML Observability)
  - [Musicgen](https://huggingface.co/facebook/musicgen-melody) (Checkpoint Model for Music Generation)
  - [aprilschen/VioletEvergardenAutomemories](https://huggingface.co/datasets/aprilschen/VioletEvergardenAutomemories) (dataset)
  - huggingface/transformers
@@ -10,3 +12,6 @@ Music Generation Finetuning notebook using the Meta's MusicGen model, modified f
  - librosa (labelling: tempo and key)
  - CLAP (labelling: genre, instrument, mood)
  - Perameter-Efficient Fine-Tuning (Low-Rank Adaptation library)
+
+   
+Code is modified from Hugging-face user ```ylacombe``` to run on AWS Sagemaker & partially on M1 Apple Silicon (no GPU).
