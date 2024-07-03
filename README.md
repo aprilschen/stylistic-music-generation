@@ -7,6 +7,6 @@ Music Generation Finetuning notebook using the Meta's MusicGen model, modified f
  - huggingface/transformers
  - Ipython (Audio displays)
  - demucs (Voice removal)
- - librosa (tempo and key)
- - CLAP (genre, instrument, mood)
+ - librosa (labelling: tempo and key)
+ - CLAP (labelling: genre, instrument, mood)
  - Perameter-Efficient Fine-Tuning (Low-Rank Adaptation library)
