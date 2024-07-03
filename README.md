@@ -1,5 +1,5 @@
 # stylistic-music-generation
-Music Generation Finetuning notebook using the Meta's MusicGen model, trained on music from the Violet Evergarden: Automemories Soundtrack. 
+Music Generation Finetuning notebook using the Meta's MusicGen model, trained on music from the Violet Evergarden: Automemories Soundtrack. Code is modified to run on AWS Sagemaker & partially on M1 Apple Silicon (no GPU).
 
 ### Tooling: 
  - AWS Sagemaker (Compute/Jupyter Notebooks platform)
@@ -14,4 +14,4 @@ Music Generation Finetuning notebook using the Meta's MusicGen model, trained on
  - Perameter-Efficient Fine-Tuning (Low-Rank Adaptation library)
 
    
-Code is modified from Hugging-face user ```ylacombe``` to run on AWS Sagemaker & partially on M1 Apple Silicon (no GPU).
+Inspiration for training code taken from various Github users, including ```lyramakesmusic```, ```sakemin```, and ```ylacombe```. 
